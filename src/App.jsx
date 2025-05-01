@@ -1,34 +1,27 @@
 import React from "react";
-import "./App.css";
-import Header from "./components/header/Header";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import Services from "./components/Services/Services";
-import Qualification from "./components/qualification/Qualification";
-import Work from "./components/work/Work";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import ScrollUp from "./components/scrollUp/ScrollUp";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { menu } from "./data/Routes.jsx";
 
-const App = () => {
+// components
+import BottomBar from "./components/BottomBar";
+import Header from "./components/Header";
+
+export default function App() {
   return (
-    <>
-      <Header />
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Work />
-        <Contact />
-      </main>
-
-      <Footer />
-      <ScrollUp />
-    </>
+    <Router>
+      <div className="bg-[#0b0b0b] min-h-screen">
+        <Routes>
+          {menu.map((i, idx) => (
+            <Route key={idx} path={i.path} element={i.element} />
+          ))}
+        </Routes>
+      </div>
+      <div className="fixed top-0 w-full z-50">
+        <Header />
+      </div>
+      <div className="fixed bottom-0 flex justify-center w-full z-50 pb-6 px-6">
+        <BottomBar />
+      </div>
+    </Router>
   );
-};
-
-export default App;
+}
