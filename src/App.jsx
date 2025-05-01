@@ -8,7 +8,7 @@ import Header from "./components/Header";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/portofolio-web">
       <div className="bg-[#0b0b0b] min-h-screen">
         <Routes>
           {menu.map((i, idx) => (
