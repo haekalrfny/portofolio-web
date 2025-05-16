@@ -104,7 +104,7 @@ export const projects = [
     scope: "Personal",
     desc: "Useful for checking real-time weather and temperature conditions from anywhere around the world.",
     tools: [images[0], images[2], images[10]],
-    url: "weather-app-navy-eight.vercel.app",
+    url: "https://weather-app-navy-eight.vercel.app",
     repo: "https://github.com/haekalrfny/weather-app",
   },
   {
@@ -114,7 +114,7 @@ export const projects = [
     scope: "Personal",
     desc: "This application is used to explore tourist destinations across Indonesia, complete with photos, locations, and detailed descriptions.",
     tools: [images[6], images[7], images[10]],
-    url: "wisata-app-five.vercel.app",
+    url: "https://wisata-app-five.vercel.app",
     repo: "https://github.com/haekalrfny/new_wisata_app",
   },
   {
