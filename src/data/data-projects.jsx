@@ -34,7 +34,7 @@ export const projects = [
     scope: "Personal",
     desc: "A landing page dedicated to supporting Palestine, featuring donation campaigns, volunteer sign-ups, and a gallery showcasing the spirit of pro-Palestine demonstrations.",
     tools: [images[6], images[7], images[10]],
-    url: "forgaza.vercel.app",
+    url: "https://forgaza.vercel.app",
     repo: "https://github.com/haekalrfny/forgaza.",
   },
   {
