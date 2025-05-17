@@ -28,8 +28,18 @@ const certificate = Object.values(
 
 export const projects = [
   {
+    title: "forgaza.",
+    image: web[1],
+    type: ["website"],
+    scope: "Personal",
+    desc: "A landing page dedicated to supporting Palestine, featuring donation campaigns, volunteer sign-ups, and a gallery showcasing the spirit of pro-Palestine demonstrations.",
+    tools: [images[6], images[7], images[10]],
+    url: "forgaza.vercel.app",
+    repo: "https://github.com/haekalrfny/forgaza.",
+  },
+  {
     title: "Teman Budi",
-    image: web[8],
+    image: web[9],
     type: ["website"],
     scope: "Paid",
     desc: "This internal tool is designed to summarize and manage vote counts from the 2024 West Bandung Pilkada, serving as a reference to cross-check and ensure consistency with the official data provided by the government.",
@@ -39,7 +49,7 @@ export const projects = [
   },
   {
     title: "Sapa Chat",
-    image: web[7],
+    image: web[8],
     type: ["website"],
     scope: "Personal",
     desc: "This application is designed for sending and receiving text messages, with support for image and file sharing. It also includes a dark mode feature.",
@@ -49,7 +59,7 @@ export const projects = [
   },
   {
     title: "Rumah Peduli Umat",
-    image: web[6],
+    image: web[7],
     type: ["website"],
     scope: "Company",
     desc: "This application is a management information system developed for the 'Rumah Peduli Umat' organization. It is used for various purposes, including tracking financial transactions, managing CRM, generating statistics and reports, and much more. The system currently serves over 1,000 users.",
@@ -59,7 +69,7 @@ export const projects = [
   },
   {
     title: "IdeKala",
-    image: web[5],
+    image: web[6],
     type: ["website"],
     scope: "Personal",
     desc: "This application is a Notion clone, useful for managing tasks, taking notes, and sharing content by deploying it for public access.",
@@ -69,7 +79,7 @@ export const projects = [
   },
   {
     title: "Maken Living",
-    image: web[4],
+    image: web[5],
     type: ["website", "design"],
     scope: "Company",
     desc: "This application is a management information system developed for the company 'Maken Living'. It is used to store and manage data related to products, customers, and various other business operations.",
@@ -79,7 +89,7 @@ export const projects = [
   },
   {
     title: "Cari Kuliner",
-    image: web[3],
+    image: web[4],
     type: ["website", "design"],
     scope: "Personal",
     desc: "This application is used to discover nearby culinary spots, specifically within Indonesia. It also includes a collection of recipes for users to explore.",
@@ -89,7 +99,7 @@ export const projects = [
   },
   {
     title: "Calculator Sederhana",
-    image: web[2],
+    image: web[3],
     type: ["website"],
     scope: "Personal",
     desc: "Just a simple calculator app.",
@@ -99,7 +109,7 @@ export const projects = [
   },
   {
     title: "Weather App",
-    image: web[1],
+    image: web[2],
     type: ["website"],
     scope: "Personal",
     desc: "Useful for checking real-time weather and temperature conditions from anywhere around the world.",
