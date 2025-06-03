@@ -2,23 +2,21 @@ import React from "react";
 import { motion } from "framer-motion";
 import EmailForm from "../components/EmailForm";
 import {
-  FaDiscord,
   FaSteam,
   FaLinkedin,
   FaTelegramPlane,
   FaGithub,
+  FaEnvelope,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
+  {
+    icon: <FaEnvelope />,
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=haekalrfny@gmail.com",
+  },
   { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/haekalrfny/" },
   { icon: <FaGithub />, href: "https://github.com/haekalrfny" },
-  { icon: <FaXTwitter />, href: "https://x.com/nasihitam" },
   { icon: <FaTelegramPlane />, href: "https://t.me/haekalrfny" },
-  {
-    icon: <FaDiscord />,
-    href: "https://discordapp.com/users/702117312873889833",
-  },
   {
     icon: <FaSteam />,
     href: "https://steamcommunity.com/profiles/76561198871051183/",
