@@ -45,7 +45,7 @@ export default function About() {
           />
         </div>
         <div className="w-full md:w-1/2 space-y-6">
-          <div className="flex justify-between">
+          <div className="flex justify-between md:justify-center md:gap-6">
             {cards.map((card, index) => {
               const Icon = card.icon;
               return (
@@ -85,11 +85,9 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
           >
-            Fullstack Developer with 2+ years of hands-on experience building
-            and maintaining web applications. Specializing in JavaScript based
-            technologies (ReactJS, NodeJS, ExpressJS) with strong proficiency in
-            both SQL and NoSQL databases. Adaptable, self driven, and capable of
-            delivering end-to-end project solutions independently.
+            Fullstack Developer with 2+ years of experience in the JavaScript &
+            TypeScript ecosystem, skilled in SQL/NoSQL databases, and
+            experienced in handling end-to-end projects.
           </motion.p>
         </div>
       </div>

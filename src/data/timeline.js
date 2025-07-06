@@ -5,7 +5,15 @@ export const menu = [
 
 export const experiences = [
   {
-    title: "Fullstack Developer",
+    title: "Fullstack Engineer (Hybrid)",
+    place: "PT Quantum Pesona Dunia",
+    region: "North Jakarta, Indonesia",
+    date: "Jun 2025 - Present",
+    description:
+      "A technology company focused on software engineering and IoT device development, with a primary focus on digital innovation and data-driven technical solutions.",
+  },
+  {
+    title: "Fullstack Developer (Part-time/Freelance)",
     place: "Rumah Peduli Umat",
     region: "West Bandung, Indonesia",
     date: "Jan 2024 - Present",

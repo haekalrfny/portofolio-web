@@ -9,6 +9,7 @@ export const images = [
   "https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=r2OarXWQc7B6&format=png&color=ffffff",
+  "https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=84710&format=png&color=000000",
   "https://img.icons8.com/?size=100&id=9nLaR5KFGjN0&format=png&color=000000",
